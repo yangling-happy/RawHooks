@@ -12,6 +12,15 @@
 
 ## 二、代码逐行解析
 ```javascript
+/**
+ * 题目：手写 call、apply、bind
+ * 要求：
+ * 1. 实现 Function.prototype.myCall(context, ...args)
+ * 2. 实现 Function.prototype.myApply(context, argsArray)
+ * 3. 实现 Function.prototype.myBind(context, ...args)，返回新函数，支持柯里化传参
+ * 4. context 为 null/undefined 时指向全局对象
+ */
+
 // 请实现这三个方法
 
 // 1. myCall
